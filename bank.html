@@ -17,21 +17,21 @@
                     <div class="bg-fuchsia-400 px-5 py-12 rounded-lg">
                         <div>
                             <h1 class="text-2xl  text-white">Deposit</h1>
-                            <h2 class="text-4xl text-lime-400 text-white">$<span>00</span></h2>
+                            <h2 class="text-4xl text-lime-400 text-white">$<span  id="deposit-element">00</span></h2>
                         </div>
 
                     </div>
                     <div class="bg-pink-500 px-5 py-12 rounded-lg">
                         <div>
                             <h1 class="text-2xl  text-white">Withdraw</h1>
-                            <h2 class="text-4xl text-lime-400 text-white">$<span>00</span></h2>
+                            <h2 class="text-4xl text-lime-400 text-white">$<span id="withdraw-element">00</span></h2>
                         </div>
 
                     </div>
                     <div class="bg-purple-400 px-5 py-12 rounded-lg">
                         <div>
                             <h1 class="text-2xl  text-white">Balance</h1>
-                            <h2 class="text-4xl text-lime-400 text-white">$<span>1240</span></h2>
+                            <h2 class="text-4xl text-lime-400 text-white">$<span id="blance-element">1240</span></h2>
                         </div>
                     </div>
                     
@@ -46,17 +46,20 @@
                 <div class="grid grid-cols-2 gap-6 mt-8">
                     <div class="bg-amber-700 px-5 py-12 rounded-lg">
                         <h1 class="text-4xl text-white">Deposit</h1>
-                        <input class="w-9/12 mt-4 mb-3 block px-4 py-3 rounded-lg focus:outline-none" type="text" placeholder="Please enter your deposit">
-                        <button class="bg-lime-500 px-5 py-2 text-white rounded-lg hover:bg-yellow-500">Enter</button>
+                        <input id="deposit-input" class="w-9/12 mt-4 mb-3 block px-4 py-3 rounded-lg focus:outline-none" type="text" placeholder="Please enter your deposit">
+                        <button id="deposit-btn" class="bg-lime-500 px-5 py-2 text-white rounded-lg hover:bg-yellow-500">Enter</button>
                     </div>
                     <div class="bg-pink-500 px-5 py-12 rounded-lg">
                         <h1 class="text-4xl text-white">Withdraw</h1>
-                        <input class="w-9/12 mt-4 mb-3 block px-4 py-3 rounded-lg focus:outline-none" type="text" placeholder="Please enter your Withdraw">
-                        <button class="bg-lime-500 px-5 py-2 text-white rounded-lg hover:bg-yellow-500">Enter</button>
+                        <input id="withdraw-input" class="w-9/12 mt-4 mb-3 block px-4 py-3 rounded-lg focus:outline-none" type="text" placeholder="Please enter your Withdraw">
+                        <button id="withdraw-btn" class="bg-lime-500 px-5 py-2 text-white rounded-lg hover:bg-yellow-500">Enter</button>
 
                     </div>
                   </div>
             </section>
         </main>
+        <script src="js/utilise.js"></script>
+        <script src="js/deposit.js"></script>
+        <script src="js/withdraw.js"></script>
 </body>
 </html>
